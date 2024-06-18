@@ -1,0 +1,74 @@
+/* CSS for the Login Form */
+.login-container {
+    width: 320px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7; /* Light gray background */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+    margin-bottom: 10px;
+    padding: 8px;
+    color: #f00;
+    background-color: #fee;
+    border: 1px solid #f00;
+    border-radius: 4px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #6abf6b; /* Green border color when focused */
+}
+
+button {
+    width: calc(100% - 20px);
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6abf6b; /* Green button color */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4e8f4e; /* Darker green button color on hover */
+}

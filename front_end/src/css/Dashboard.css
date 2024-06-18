@@ -1,0 +1,40 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; /* Distribute links evenly */
+  }
+  
+  .nav-links li {
+    cursor: pointer; /* Add pointer cursor for clickable effect */
+    padding: 10px 20px; /* Add padding to links */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-links li:hover {
+    background-color: #f0f0f0; /* Light grey on hover */
+    color: #000; /* Black on hover */
+  }
+  
+  .selected-component {
+    margin-top: 20px;
+  }
+  
